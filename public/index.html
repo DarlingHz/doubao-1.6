@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>短链接服务</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .intro {
+            color: #7f8c8d;
+        }
+        
+        .api-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        h3 {
+            color: #2c3e50;
+            margin: 15px 0 10px;
+            font-size: 16px;
+        }
+        
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            margin: 10px 0;
+            border: 1px solid #e9ecef;
+        }
+        
+        code {
+            font-family: 'Courier New', monospace;
+            color: #e74c3c;
+        }
+        
+        p {
+            margin-bottom: 10px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .method {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .method-get {
+            background-color: #27ae60;
+            color: white;
+        }
+        
+        .method-post {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .endpoint {
+            background-color: #f8f9fa;
+            padding: 5px 10px;
+            border-radius: 4px;
+            color: #2c3e50;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>短链接服务 API</h1>
+        <p class="intro">一个高性能的短链接生成与管理服务</p>
+    </header>
+    
+    <div class="api-section">
+        <h2>简介</h2>
+        <p>本服务提供 RESTful API 接口，用于创建、管理和访问短链接。所有 API 响应均为 JSON 格式。</p>
+    </div>
+    
+    <div class="api-section">
+        <h2>API 接口</h2>
+        
+        <h3>1. 创建短链接</h3>
+        <p><span class="method method-post">POST</span> <span class="endpoint">/api/v1/shorten</span></p>
+        <p>创建一个新的短链接。</p>
+        
+        <h4>请求体</h4>
+        <pre>{
+  "long_url": "https://example.com/very/long/url",
+  "expire_seconds": 3600,
+  "custom_alias": "my-alias"
+}</pre>
+        
+        <h4>参数说明</h4>
+        <ul>
+            <li><code>long_url</code>：必填，原始长链接</li>
+            <li><code>expire_seconds</code>：可选，过期时间（秒），0 表示永不过期</li>
+            <li><code>custom_alias</code>：可选，自定义短码（3-20 个字符，仅支持字母、数字、下划线和连字符）</li>
+        </ul>
+        
+        <h4>响应</h4>
+        <pre>{
+  "id": 1,
+  "short_code": "abc123",
+  "short_url": "http://localhost:8080/s/abc123",
+  "long_url": "https://example.com/very/long/url",
+  "expire_at": 1680000000,
+  "created_at": 1679996400,
+  "status": "active"
+}</pre>
+    </div>
+    
+    <div class="api-section">
+        <h3>2. 访问短链接</h3>
+        <p><span class="method method-get">GET</span> <span class="endpoint">/s/{short_code}</span></p>
+        <p>根据短码重定向到原始长链接。</p>
+        
+        <h4>响应</h4>
+        <ul>
+            <li>成功：HTTP 302 重定向</li>
+            <li>失败：HTTP 4xx 错误和错误信息</li>
+        </ul>
+    </div>
+    
+    <div class="api-section">
+        <h3>3. 查询短链接统计</h3>
+        <p><span class="method method-get">GET</span> <span class="endpoint">/api/v1/links/{id}/stats</span></p>
+        <p>获取短链接的统计信息和访问日志。</p>
+        
+        <h4>响应</h4>
+        <pre>{
+  "link_info": {
+    "id": 1,
+    "short_code": "abc123",
+    "custom_alias": "my-alias",
+    "long_url": "https://example.com/very/long/url",
+    "created_at": 1679996400,
+    "expire_at": 1680000000,
+    "status": "active"
+  },
+  "total_visits": 42,
+  "recent_visits": [
+    {
+      "visit_time": 1679996500,
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0..."
+    }
+    // 最多返回最近 10 次访问
+  ]
+}</pre>
+    </div>
+    
+    <div class="api-section">
+        <h3>4. 禁用短链接</h3>
+        <p><span class="method method-post">POST</span> <span class="endpoint">/api/v1/links/{id}/disable</span></p>
+        <p>禁用指定的短链接。</p>
+        
+        <h4>响应</h4>
+        <pre>{
+  "success": true,
+  "message": "Link disabled successfully"
+}</pre>
+    </div>
+    
+    <div class="api-section">
+        <h2>示例调用</h2>
+        
+        <h3>使用 curl 创建短链接</h3>
+        <pre>curl -X POST http://localhost:8080/api/v1/shorten \
+  -H "Content-Type: application/json" \
+  -d '{"long_url": "https://github.com", "expire_seconds": 3600}'</pre>
+        
+        <h3>访问短链接</h3>
+        <pre>curl -v http://localhost:8080/s/abc123</pre>
+    </div>
+    
+    <div class="footer">
+        <p>© 2024 短链接服务</p>
+    </div>
+</body>
+</html>
