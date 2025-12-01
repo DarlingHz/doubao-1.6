@@ -1,0 +1,18 @@
+{
+  "http": {
+    "port": 8080,
+    "thread_pool_size": 8
+  },
+  "database": {
+    "type": "sqlite",
+    "path": "./data/watch_server.db"
+  },
+  "cache": {
+    "capacity": 100,
+    "ttl_seconds": 3600
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "./logs/server.log"
+  }
+}
