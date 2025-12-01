@@ -1,0 +1,7 @@
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/api-quota-server.dir
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/edit_cache.dir
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/rebuild_cache.dir
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/list_install_components.dir
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/install.dir
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/install/local.dir
+/Users/soma/code/trae/12-01-03/1.6/build/CMakeFiles/install/strip.dir
