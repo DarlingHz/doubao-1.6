@@ -1,0 +1,134 @@
+[
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/main.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/main.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/main.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/model/User.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/model/User.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/model/User.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/model/User.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/model/Movie.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/model/Movie.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/model/Movie.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/model/Movie.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/model/WatchRecord.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/model/WatchRecord.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/model/WatchRecord.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/model/WatchRecord.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/repository/Database.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/repository/Database.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/repository/Database.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/repository/Database.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/repository/UserRepository.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/repository/UserRepository.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/repository/UserRepository.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/repository/UserRepository.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/repository/MovieRepository.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/repository/MovieRepository.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/repository/MovieRepository.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/repository/MovieRepository.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/repository/WatchRecordRepository.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/repository/WatchRecordRepository.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/repository/WatchRecordRepository.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/repository/WatchRecordRepository.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/service/UserService.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/service/UserService.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/service/UserService.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/service/UserService.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/service/MovieService.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/service/MovieService.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/service/MovieService.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/service/MovieService.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/service/WatchRecordService.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/service/WatchRecordService.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/service/WatchRecordService.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/service/WatchRecordService.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/service/StatisticsService.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/service/StatisticsService.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/service/StatisticsService.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/service/StatisticsService.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/service/RecommendationService.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/service/RecommendationService.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/service/RecommendationService.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/service/RecommendationService.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/http/Server.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/http/Server.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/http/Server.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/http/Server.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/http/RequestHandler.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/http/RequestHandler.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/http/RequestHandler.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/http/RequestHandler.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/http/Router.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/http/Router.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/http/Router.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/http/Router.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/http/HttpUtils.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/http/HttpUtils.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/http/HttpUtils.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/http/HttpUtils.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/utils/Config.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/utils/Config.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/utils/Config.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/utils/Config.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/utils/Logger.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/utils/Logger.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/utils/Logger.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/utils/Logger.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/utils/Cache.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/utils/Cache.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/utils/Cache.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/utils/Cache.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/utils/ConnectionPool.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/utils/ConnectionPool.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/utils/ConnectionPool.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/utils/ConnectionPool.cpp.o"
+},
+{
+  "directory": "/Users/soma/code/trae/12-01-04/1.6/build/src",
+  "command": "/usr/bin/c++ -DUSE_MOCK_DATABASE -I/Users/soma/code/trae/12-01-04/1.6/src  -Wall -Wextra -Wpedantic -g -std=gnu++17 -arch arm64 -o CMakeFiles/watch_server.dir/utils/TimeUtils.cpp.o -c /Users/soma/code/trae/12-01-04/1.6/src/utils/TimeUtils.cpp",
+  "file": "/Users/soma/code/trae/12-01-04/1.6/src/utils/TimeUtils.cpp",
+  "output": "src/CMakeFiles/watch_server.dir/utils/TimeUtils.cpp.o"
+}
+]
