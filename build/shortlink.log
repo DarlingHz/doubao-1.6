@@ -1,0 +1,64 @@
+[2025-11-30 19:19:56.340] [INFO] Starting ShortLink Service...
+[2025-11-30 19:19:56.340] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:19:56.342] [ERROR] SQL error: near "INDEX": syntax error
+[2025-11-30 19:19:56.342] [ERROR] Failed to initialize database
+[2025-11-30 19:20:59.065] [INFO] Starting ShortLink Service...
+[2025-11-30 19:20:59.065] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:20:59.067] [INFO] Database initialized successfully: :memory:
+[2025-11-30 19:20:59.067] [INFO] LinkService initialized with cache capacity: 1000
+[2025-11-30 19:20:59.067] [INFO] HTTP Controller initialized
+[2025-11-30 19:20:59.067] [INFO] All routes registered
+[2025-11-30 19:20:59.067] [INFO] Server starting on 0.0.0.0:8080
+[2025-11-30 19:20:59.067] [INFO] Health check: http://0.0.0.0:8080/health
+[2025-11-30 19:20:59.067] [INFO] Create short link: POST http://0.0.0.0:8080/api/v1/shorten
+[2025-11-30 19:20:59.067] [INFO] Redirect endpoint: GET http://0.0.0.0:8080/s/{short_code}
+[2025-11-30 19:22:28.556] [INFO] Starting ShortLink Service...
+[2025-11-30 19:22:28.556] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:22:28.557] [INFO] Database initialized successfully: :memory:
+[2025-11-30 19:22:28.558] [INFO] LinkService initialized with cache capacity: 1000
+[2025-11-30 19:22:28.558] [INFO] HTTP Controller initialized
+[2025-11-30 19:22:28.558] [INFO] All routes registered
+[2025-11-30 19:22:28.558] [INFO] Server starting on 0.0.0.0:8080
+[2025-11-30 19:22:28.558] [INFO] Health check: http://0.0.0.0:8080/health
+[2025-11-30 19:22:28.558] [INFO] Create short link: POST http://0.0.0.0:8080/api/v1/shorten
+[2025-11-30 19:22:28.558] [INFO] Redirect endpoint: GET http://0.0.0.0:8080/s/{short_code}
+[2025-11-30 19:23:03.524] [INFO] Starting ShortLink Service...
+[2025-11-30 19:23:03.524] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:23:03.525] [INFO] Database initialized successfully: :memory:
+[2025-11-30 19:23:03.525] [INFO] LinkService initialized with cache capacity: 1000
+[2025-11-30 19:23:03.525] [INFO] HTTP Controller initialized
+[2025-11-30 19:23:03.525] [INFO] All routes registered
+[2025-11-30 19:23:03.525] [INFO] Server starting on 0.0.0.0:8080
+[2025-11-30 19:23:03.525] [INFO] Health check: http://0.0.0.0:8080/health
+[2025-11-30 19:23:03.525] [INFO] Create short link: POST http://0.0.0.0:8080/api/v1/shorten
+[2025-11-30 19:23:03.525] [INFO] Redirect endpoint: GET http://0.0.0.0:8080/s/{short_code}
+[2025-11-30 19:23:22.082] [INFO] Starting ShortLink Service...
+[2025-11-30 19:23:22.082] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:23:22.083] [INFO] Database initialized successfully: :memory:
+[2025-11-30 19:23:22.083] [INFO] LinkService initialized with cache capacity: 1000
+[2025-11-30 19:23:22.083] [INFO] HTTP Controller initialized
+[2025-11-30 19:23:22.083] [INFO] All routes registered
+[2025-11-30 19:23:22.083] [INFO] Server starting on 0.0.0.0:8080
+[2025-11-30 19:23:22.083] [INFO] Health check: http://0.0.0.0:8080/health
+[2025-11-30 19:23:22.083] [INFO] Create short link: POST http://0.0.0.0:8080/api/v1/shorten
+[2025-11-30 19:23:22.083] [INFO] Redirect endpoint: GET http://0.0.0.0:8080/s/{short_code}
+[2025-11-30 19:24:45.184] [INFO] Starting ShortLink Service...
+[2025-11-30 19:24:45.184] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:24:45.185] [INFO] Database initialized successfully: :memory:
+[2025-11-30 19:24:45.185] [INFO] LinkService initialized with cache capacity: 1000
+[2025-11-30 19:24:45.185] [INFO] HTTP Controller initialized
+[2025-11-30 19:24:45.185] [INFO] All routes registered
+[2025-11-30 19:24:45.185] [INFO] Server starting on 0.0.0.0:8080
+[2025-11-30 19:24:45.185] [INFO] Health check: http://0.0.0.0:8080/health
+[2025-11-30 19:24:45.185] [INFO] Create short link: POST http://0.0.0.0:8080/api/v1/shorten
+[2025-11-30 19:24:45.185] [INFO] Redirect endpoint: GET http://0.0.0.0:8080/s/{short_code}
+[2025-11-30 19:26:25.281] [INFO] Starting ShortLink Service...
+[2025-11-30 19:26:25.281] [INFO] Config loaded from: config/config.json
+[2025-11-30 19:26:25.282] [INFO] Database initialized successfully: :memory:
+[2025-11-30 19:26:25.282] [INFO] LinkService initialized with cache capacity: 1000
+[2025-11-30 19:26:25.282] [INFO] HTTP Controller initialized
+[2025-11-30 19:26:25.282] [INFO] All routes registered
+[2025-11-30 19:26:25.282] [INFO] Server starting on 0.0.0.0:8080
+[2025-11-30 19:26:25.282] [INFO] Health check: http://0.0.0.0:8080/health
+[2025-11-30 19:26:25.282] [INFO] Create short link: POST http://0.0.0.0:8080/api/v1/shorten
+[2025-11-30 19:26:25.282] [INFO] Redirect endpoint: GET http://0.0.0.0:8080/s/{short_code}
